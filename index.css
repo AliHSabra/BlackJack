@@ -1,0 +1,54 @@
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: black;
+}
+
+
+#message-el{
+
+font-style: italic;
+
+}
+
+button{
+    
+    color: #8d5c40;
+    width: 150px;
+    background: goldenrod;
+    font-weight: bold;
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s; /* Add a transition effect */
+      
+}
+      button:active {
+        background-color: #3e8e41; /* Darker green background on active */
+        transform: translateY(2px); /* Move the button down 2px */
+      }
+      button:hover {
+        background-color: #3e8e41; /* Darker green background on hover */
+        color: #ffffff; /* White text */
+      }
+
+
+div{
+    margin-top: 200px;
+}
